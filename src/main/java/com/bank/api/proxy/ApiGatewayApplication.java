@@ -5,6 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
+/**
+ * Gateway Spring boot application
+ * @author Onkar Prakash Devale
+ *
+ */
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
