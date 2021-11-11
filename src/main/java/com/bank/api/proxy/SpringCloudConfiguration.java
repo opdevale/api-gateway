@@ -15,7 +15,11 @@ public class SpringCloudConfiguration {
                 .route(r -> r.path("/hotelBooking/**")
                         .uri("http://laptop-sknl19fq:8089/"))
                 .route(r -> r.path("/hotelRegistration/**")
-                        .uri("http://laptop-sknl19fq:8082/"))                
+                        .uri("http://laptop-sknl19fq:8082/"))
+                .route(r -> r.path("/hotelBooking/**")
+                        .uri("http://laptop-sknl19fq:8089/"))
+                .route(r -> r.path("/loginService/**")
+                        .uri("http://laptop-sknl19fq:8095/"))
                 .build();
     }
 

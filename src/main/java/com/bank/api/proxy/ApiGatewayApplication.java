@@ -20,7 +20,7 @@ public class ApiGatewayApplication {
 	}
 
 	
-public int getValue(String s) {
+	public int getValue(String s) {
 		
 		char[] chars = s.toCharArray();
 		int length = s.length();
